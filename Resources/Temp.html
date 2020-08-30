@@ -1,0 +1,68 @@
+<! DOCTYPE html>
+    <html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Tempurature</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link" href="Index.html">Overview</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="Temp.html">Tempurature</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Humid.html">Humidity</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Cloud.html">Cloudiness</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Wind.html">Wind Speed</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Compare.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Data.html">Data</a>
+            </li>
+        </ul>
+
+        <division>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mt-3 mb-3">
+                        <h5> Latitude vs. Tempurature <h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="Temp.html">
+                            <img src="assets/images/Fig1.png" class="img-thumbnail">
+                        </a>
+                    </div>
+                    <div class="col-md-6 pl-5 pr-5">
+                        <p>The data exhibits a strong correlation between latitude and tempurature as you would expect,
+                            and as confirmed by a strong r value. The data also exhibits a non-linear relationship
+                            beteween Latitude and
+                            Tempurature, with more pronounced changes in tempurate at outside of +/- 20 degrees Latitude
+                            (approximate slope of
+                            +/-1 vs a slope closer to 0 within +/- 20 degrees Latitude. </p>
+                        <p>While the data appears to be more strongly correlated with the Northern Hemisphere (positive
+                            degress of latitude), this is due to more northern hemisphere cities from the citypy data
+                            pull. According to
+                            Wikipedia, the Northern Hemisphere has most of the earth's landmass and 90% of the
+                            population. </p>
+                    </div>
+                </div>
+            </div>
+
+        </division>
+
+    </body>

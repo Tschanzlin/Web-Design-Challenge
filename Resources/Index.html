@@ -1,0 +1,103 @@
+<! DOCTYPE html>
+    <html lang="en-us">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Weather Demo</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <!-- <style>
+            body {
+                background: url("../clear-blue-sky-2.jpg");
+                background-size: cover;
+                background-blend-mode: lighten;
+            }
+        </style>
+    -->
+
+    </head>
+
+
+
+
+    <body>
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="Index.html">Overview</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Temp.html">Tempurature</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Humid.html">Humidity</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Cloud.html">Cloudiness</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Wind.html">Wind Speed</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Compare.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Data.html">Data</a>
+            </li>
+        </ul>
+
+        <division>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6>Welcome to Weather Py Results</h6>
+                        <p>This analysis looks at weather patterns across over 500 cities, selected randomly, and
+                            located globally.
+                            Locational data for each city was generated using a random number generator that created a
+                            list of lat /
+                            long locations. Each location was then used to select the nearest city to that lat/long data
+                            point from the citypy Python library.</p>
+                        <p>Once the city information was prepared, weather information from each city was obtained using
+                            the Open
+                            Weather API. For each city, the tempurature, humidity, cloudiness, and windspeed were
+                            gathered for
+                            a single day as of the data of the query (July 2020). This information was then plotted to
+                            determine
+                            whether there was any correlation between city latitutde and weather condition.</p>
+                        <p>As the enclosed graphs will show, there is a strong correlation between latitude and
+                            tempurature, but
+                            little correlation with the other measured weather conditions.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h6>Select an Image to See the Results of Each Analysis</h6>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="Temp.html">
+                            <img src="assets/images/Fig1.png" class="img-thumbnail">
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="Humid.html">
+                            <img src="assets/images/Fig2.png" class="img-thumbnail">
+                    </div>
+                    <div class="col-md-3">
+                        <a href="Cloud.html">
+                            <img src="assets/images/Fig3.png" class="img-thumbnail">
+                    </div>
+                    <div class="col-md-3">
+                        <a href="Wind.html">
+                            <img src="assets/images/Fig4.png" class="img-thumbnail">
+                    </div>
+                </div>
+            </div>
+
+        </division>
+
+    </body>
